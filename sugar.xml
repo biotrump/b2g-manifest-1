@@ -9,8 +9,8 @@
           fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
-  <remote name="apc-io"
-          fetch="https://github.com/apc-io" />
+  <remote name="sugar"
+          fetch="file:///home/mark/Mark/embedded2014/A20_banana_pi/sugar/android/.repo/projects/" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -117,20 +117,10 @@
   <project path="system/bluetooth" name="platform/system/bluetooth"/>
   <project path="system/security" name="platform/system/security"/>
 
-  <!-- Vixen things -->
-  <project path="system/core" name="platform_system_core" remote="apc-io" revision="vixen"/>
-  <project path="system/extras" name="platform_system_extras" remote="apc-io" revision="vixen"/>
-  <project path="system/media" name="platform_system_media" remote="apc-io" revision="vixen"/>
-  <project path="system/vold" name="platform_system_vold" remote="apc-io" revision="vixen"/>
-  <project path="system/netd" name="platform_system_netd" remote="apc-io" revision="vixen"/>
-  <project path="bootable/recovery" name="Vixen-bootable_recovery" remote="apc-io" revision="vixen"/>
-  <project path="device/via/vixen" name="device-vixen" remote="apc-io" revision="master"/>
-  <project path="device/via/common" name="Vixen-device_via_common" remote="apc-io" revision="master"/>
-  <project path="frameworks/av" name="Vixen-frameworks_av" remote="apc-io" revision="vixen"/>
-  <project path="hardware/libhardware" name="Vixen-hardware_libhardware" remote="apc-io" revision="vixen"/>
-  <project path="hardware/libhardware_legacy" name="Vixen-hardware_libhardware_legacy" remote="apc-io" revision="vixen"/>
-  <project path="hardware/realtek" name="Vixen-hardware_realtek" remote="apc-io" revision="master"/>
-  <project path="hardware/via" name="Vixen-hardware_via" remote="apc-io" revision="master"/>
-  <project path="external/wpa_supplicant_8_rtl8192e" name="Vixen-external_wpa_supplicant_8_rtl8192e" remote="apc-io" revision="master"/>
-  <project path="external/bluetooth/bluedroid" name="Vixen-external_bluetooth_bluedroid" remote="apc-io" revision="vixen"/>
+  <!-- Sugar things -->
+  <project path="system/core" name="platform/system/core" remote="sugar" revision="sugar-dev"/>
+  <project path="system/extras" name="platform/system/extras" remote="sugar" revision="sugar-dev"/>
+  <project path="system/media" name="platform/system/media" remote="sugar" revision="sugar-dev"/>
+  <project path="system/vold" name="platform/system/vold" remote="sugar" revision="sugar-dev"/>
+  <project path="system/netd" name="platform_system_netd" remote="sugar" revision="sugar-dev"/>
 </manifest>
