@@ -118,9 +118,9 @@
   <project path="system/security" name="platform/system/security"/>
 
   <!-- Sugar things -->
-  <project path="system/core" name="platform/system/core" remote="sugar" revision="sugar-dev"/>
-  <project path="system/extras" name="platform/system/extras" remote="sugar" revision="sugar-dev"/>
-  <project path="system/media" name="platform/system/media" remote="sugar" revision="sugar-dev"/>
-  <project path="system/vold" name="platform/system/vold" remote="sugar" revision="sugar-dev"/>
-  <project path="system/netd" name="platform_system_netd" remote="sugar" revision="sugar-dev"/>
+  <project path="system/core" name="system/core" remote="sugar" revision="sugar-dev"/>
+  <project path="system/extras" name="system/extras" remote="sugar" revision="sugar-dev"/>
+  <project path="system/media" name="system/media" remote="sugar" revision="sugar-dev"/>
+  <project path="system/vold" name="system/vold" remote="sugar" revision="sugar-dev"/>
+  <project path="system/netd" name="system/netd" remote="sugar" revision="sugar-dev"/>
 </manifest>
