@@ -123,4 +123,12 @@
   <project path="system/media" name="system/media" remote="sugar" revision="sugar-dev"/>
   <project path="system/vold" name="system/vold" remote="sugar" revision="sugar-dev"/>
   <project path="system/netd" name="system/netd" remote="sugar" revision="sugar-dev"/>
+  <project path="bootable/recovery" name="bootable/recovery" remote="sugar" revision="sugar-dev"/>
+  <project path="device/softwinner/sugar-ref001" name="device/softwinner/sugar-ref001" remote="sugar" revision="sugar-dev"/>
+  <project path="device/softwinner/common" name="device/softwinner/common" remote="sugar" revision="sugar-dev"/>
+  <project path="frameworks/av" name="frameworks/av" remote="sugar" revision="sugar-dev"/>
+  <project path="hardware/libhardware" name="hardware/libhardware" remote="sugar" revision="sugar-dev"/>
+  <project path="hardware/libhardware_legacy" name="hardware/libhardware_legacy" remote="sugar" revision="sugar-dev"/>
+  <project path="external/wpa_supplicant_8" name="external/wpa_supplicant_8" remote="sugar" revision="sugar-dev"/>
+  <project path="external/bluetooth/bluedroid" name="external/bluetooth/bluedroid" remote="sugar" revision="sugar-dev"/>
 </manifest>
