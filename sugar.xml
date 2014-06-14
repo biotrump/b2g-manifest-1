@@ -102,7 +102,6 @@
   <project path="external/libyuv" name="platform/external/libyuv"/>
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
   <project path="frameworks/base" name="platform/frameworks/base"/>
-  <project path="frameworks/native" name="platform/frameworks/native"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
@@ -127,6 +126,7 @@
   <project path="device/softwinner/sugar-ref001" name="device/softwinner/sugar-ref001" remote="sugar" revision="sugar-dev"/>
   <project path="device/softwinner/common" name="device/softwinner/common" remote="sugar" revision="sugar-dev"/>
   <project path="device/softwinner/wing-common" name="device/softwinner/wing-common" remote="sugar" revision="sugar-dev"/>
+  <project path="frameworks/native" name="platform/frameworks/native" remote="sugar" revision="sugar-dev"/>
   <project path="frameworks/av" name="frameworks/av" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/aw" name="hardware/aw" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/libhardware" name="hardware/libhardware" remote="sugar" revision="sugar-dev"/>
