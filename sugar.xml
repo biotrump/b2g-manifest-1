@@ -129,10 +129,10 @@
   <project path="frameworks/native" name="platform/frameworks/native" remote="sugar" revision="sugar-dev"/>
   <project path="frameworks/av" name="frameworks/av" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/aw" name="hardware/aw" remote="sugar" revision="sugar-dev"/>
-  <project path="frameworks/base/data/etc" name="frameworks/base/data/etc" remote="sugar" revision="sugar-dev"/>
+  <project path="frameworks/base" name="frameworks/base" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/libhardware" name="hardware/libhardware" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/libhardware_legacy" name="hardware/libhardware_legacy" remote="sugar" revision="sugar-dev"/>
   <!--project path="external/wpa_supplicant_8" name="external/wpa_supplicant_8" remote="sugar" revision="sugar-dev"/--><!--repeat-->
   <project path="external/bluetooth/bluedroid" name="external/bluetooth/bluedroid" remote="sugar" revision="sugar-dev"/>
-  <project path="external/ppp/pppoe" name="external/ppp/pppoe" remote="sugar" revision="sugar-dev"/>
+  <project path="external/ppp" name="external/ppp" remote="sugar" revision="sugar-dev"/>
 </manifest>
