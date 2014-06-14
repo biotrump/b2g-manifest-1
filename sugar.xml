@@ -133,4 +133,5 @@
   <project path="hardware/libhardware_legacy" name="hardware/libhardware_legacy" remote="sugar" revision="sugar-dev"/>
   <!--project path="external/wpa_supplicant_8" name="external/wpa_supplicant_8" remote="sugar" revision="sugar-dev"/--><!--repeat-->
   <project path="external/bluetooth/bluedroid" name="external/bluetooth/bluedroid" remote="sugar" revision="sugar-dev"/>
+  <project path="external/ppp/pppoe" name="external/ppp/pppoe" remote="sugar" revision="sugar-dev"/>
 </manifest>
