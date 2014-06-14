@@ -128,6 +128,7 @@
   <project path="device/softwinner/common" name="device/softwinner/common" remote="sugar" revision="sugar-dev"/>
   <project path="device/softwinner/wing-common" name="device/softwinner/wing-common" remote="sugar" revision="sugar-dev"/>
   <project path="frameworks/av" name="frameworks/av" remote="sugar" revision="sugar-dev"/>
+  <project path="hardware/aw" name="hardware/aw" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/libhardware" name="hardware/libhardware" remote="sugar" revision="sugar-dev"/>
   <project path="hardware/libhardware_legacy" name="hardware/libhardware_legacy" remote="sugar" revision="sugar-dev"/>
   <!--project path="external/wpa_supplicant_8" name="external/wpa_supplicant_8" remote="sugar" revision="sugar-dev"/--><!--repeat-->
